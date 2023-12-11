@@ -1,0 +1,41 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #dfd5d5b5;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 10px;
+}
+input,textarea {
+  padding: 8px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+p.success {
+  text-align: center;
+  color: green;
+  margin-top: 10px;
+}
+p.error {
+  text-align: left;
+  color: red;
+  font-size: 15px;
+  margin-top: 5px;
+}
